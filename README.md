@@ -15,16 +15,17 @@ of the amount of delay is an extremely difficult task.
 
 ## Files
 
-1. programmable_delay.v: A module that instantiates adjustable delay lines
-2. programmable_delay_line.v: A top-level module for a simple test project using some switches
+- programmable_delay.v: A module that instantiates adjustable delay lines
+- programmable_delay_line.v: A top-level module for a simple test project using some switches
 
 ## Parameters
 
 All parameters are mandatory and have no defaults.
-1. nominal_delay: "y intercept" of the delay, i.e. the number of delay elements when code = 0
-2. delta_delay: "slope" of the delay, i.e. the number of delay elements the line is increased by when code is increased
-3. N: The number of possible combinations. Should be a power of 2.
-4. log2_N: log2(N)
+
+- nominal_delay: "y intercept" of the delay, i.e. the number of delay elements when code = 0
+- delta_delay: "slope" of the delay, i.e. the number of delay elements the line is increased by when code is increased
+- N: The number of possible combinations. Should be a power of 2.
+- log2_N: log2(N)
 
 ## Arguments
 
