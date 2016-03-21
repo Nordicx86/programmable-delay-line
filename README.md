@@ -21,10 +21,10 @@ of the amount of delay is an extremely difficult task.
 ## Parameters
 
 All parameters are mandatory and have no defaults.
-- nominal_delay: "y intercept" of the delay, i.e. the number of delay elements when code = 0
-- delta_delay: "slope" of the delay, i.e. the number of delay elements the line is increased by when code is increased
-- N: The number of possible combinations. Should be a power of 2.
-- log2_N: log2(N)
+1. nominal_delay: "y intercept" of the delay, i.e. the number of delay elements when code = 0
+2. delta_delay: "slope" of the delay, i.e. the number of delay elements the line is increased by when code is increased
+3. N: The number of possible combinations. Should be a power of 2.
+4. log2_N: log2(N)
 
 ## Arguments
 
